@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Studentcontroller {
 
 	
-	@GetMapping("studentwelcome")
+	@GetMapping("/")
 	public String studnetwel() {
 	
 		return new String("Welcome to testing project");
